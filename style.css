@@ -2,19 +2,21 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-html, body {
-    width: 100%;
+* {
     margin: 0;
+    padding: 0;
 }
+
 .display-flex {
     display: flex;
 }
 .navbar {
-    width: 100%;
+    max-width: 1600px;
     height: 92px;
     background: rgba(26, 11, 46, 1);
     justify-content: space-around;
     align-items: center;
+   
 }
 .title {
     width: 219px;
@@ -39,7 +41,8 @@ rgba(145, 0, 248, 1)
     gap: 2rem;
     font-size: 16px;
     font-weight: 500;
-    color: #FFFFFF;     
+    color: #FFFFFF;
+    padding: 36px 314px;     
 }
 .btn {
     width: 135px;
@@ -55,6 +58,107 @@ rgba(145, 0, 248, 1)
 }
 .hamburger {
     display: none;
+}
+.Banner {
+ max-width: 1600px;
+ height: 760px;
+ background: url(./assets/hero-bg.png);
+}
+.Banner-content {
+    width: 550px;
+    height: 559px;
+    padding: 100px 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Banner img {
+   background: url(./assets/hero-circle.png);
+
+}
+
+.Banner h1 {
+color: #FFFFFF;
+font-size: 60px;
+font-weight: 800;
+}
+.Banner p {
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.buttons {
+
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 8px;
+    text-align: left;
+}
+.button-left {
+    width: 201px;
+    height: 44px;
+}
+.Subscribe {
+   width: 147px;
+   height: 44px;
+   padding: 12px 20px 12px 20px;
+   border: 1px solid #00FF88;
+   color: #00FF88;
+   border-radius: 10000px;
+   background-color: transparent
+   ;
+}
+.About {
+    width: 1600px;
+    height: 646px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgba(26, 11, 46, 1);
+}
+.podcast { 
+width: 1200px;
+height: 222px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16px;
+color: #FFFFFF;
+}
+.podcast h2 {
+ font-size: 48px;
+ font-weight: 700;
+ list-style: 58px;
+}
+.podcast p {
+height: 148px;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+}
+.list-of-details {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    list-style-type: none;
+    gap: 80px;
+    padding-top: 160px;
+}
+.list-of-details h1 {
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+.list-of-details p {
+    font-size: 16px;
+    font-weight: 400;
 }
 @media screen and (max-width:576px) {
 .hamburger {
