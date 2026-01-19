@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 .display-flex {
     display: flex;
@@ -75,6 +79,7 @@ rgba(145, 0, 248, 1)
 }
 .Banner img {
    background: url(./assets/hero-circle.png);
+   background-repeat: no-repeat;
 
 }
 
@@ -142,8 +147,8 @@ font-weight: 400;
 line-height: 20px;
 }
 .list-of-details {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     color: #FFFFFF;
     list-style-type: none;
     gap: 80px;
@@ -171,5 +176,21 @@ line-height: 20px;
 .lists, .btn {
     display: none;
 }   
-
+.About {
+    width: 100%;
+}
+.About p {
+    width: 100%;
+    max-width: 324px;
+    height: auto;
+    text-align: center;
+    line-height: 20px;
+    
+}
+.list-of-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    text-align: center;
+}
 }
