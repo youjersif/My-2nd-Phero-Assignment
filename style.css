@@ -165,6 +165,87 @@ line-height: 20px;
     font-size: 16px;
     font-weight: 400;
 }
+#techwave-pros {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: rgba(35, 14, 61, 1);
+    gap: 40px;
+    padding: 120px 200px;
+}
+#techwave-pros h3 {
+    font-size: 48px;
+    font-weight: 700; 
+    line-height: 58px; 
+}
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3);
+    gap: 30px;
+    justify-content: center;
+}
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    gap: 16px;
+    padding: 40px;  
+}
+.info-container h6 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.info-container p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#first {
+    grid-row: span 2;
+}
+#second {
+    grid-column: span 2;
+}
+.footer-container {
+    color: #FFFFFF;
+   background:url(./assets/footer-bg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 32px;
+   padding: 120px;
+}
+.footer-head {
+    max-width: 100%;
+    height: 60px;
+    font-size: 58px;
+}
+.footer-items {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-items li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 @media screen and (max-width:576px) {
 .hamburger {
     display: block;
@@ -193,4 +274,29 @@ line-height: 20px;
     justify-content: center;
     text-align: center;
 }
+#techwave-pros h3 {
+    font-size: 32px;
+}
+.info-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+
+
+
+.footer-container {
+    padding: 40px 20px;
+    gap: 24px;
+}
+.footer-head {
+    font-size: 50px;
+}
+.footer-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 35px;
+    row-gap: 15px;
+}
+
 }
