@@ -206,6 +206,131 @@ line-height: 20px;
     font-size: 16px;
     font-weight: 400;
 }
+#card-section {
+    color: #FFFFFF;
+    background-color:  rgba(26, 11, 46, 1);
+    padding: 120px 200px;
+}
+#card-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.vcard {
+  background-color: rgba(37, 13, 68, 1);
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  overflow: hidden;
+}
+.video-image {
+    position: relative;
+    width: 100%;
+}
+.video-image img {
+    width: 100%;
+    display: block;
+}
+.playbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.cardbody {
+    gap: 12;
+    padding: 24px;
+}
+.cardbody h5 {
+ font-size: 20px;
+ font-weight: 700;
+ margin-bottom: 12px;
+}
+.cardbody p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.cardbody span {
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.host-section {
+    
+}
+.host-section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.host-info {
+    width: 100%;
+    max-width: 1200px;
+    height: 280px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding: 48px 40px;  
+}
+.hostimage {
+    width: 200px;
+    height: 200px;
+}
+.host-info h3 {
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 16px;
+}
+.host-info p {
+    font-size: 16px;
+    font-weight: 400px;
+    color:  rgba(255, 255, 255, 1);
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.pngs {
+    width: 184px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.pngs img {
+    width: 20px;
+    height: 20px;
+    border: 1px solid purple;
+    border-radius: 50%;
+}
 #first {
     grid-row: span 2;
 }
@@ -239,6 +364,8 @@ line-height: 20px;
     gap: 40px;
     font-size: 16px;
     font-weight: 500;
+    color: rgba(250, 250, 250, 1);
+    font-weight: 400;
 }
 .footer-items li {
     display: flex;
